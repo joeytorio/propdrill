@@ -1,0 +1,59 @@
+.parent {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  flex-grow: 1;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button-container {
+  margin-left: 10px;
+}
+
+.clear-button {
+  padding: 10px 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Added transition for background-color and transform */
+}
+
+.clear-button:hover {
+  background-color: #ff5722;
+  transform: scale(1.05); /* Scale button slightly on hover */
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  background-image: linear-gradient(45deg, #ff9800, #ffeb3b);
+  -webkit-background-clip: text;
+  color: transparent;
+}

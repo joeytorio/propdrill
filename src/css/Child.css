@@ -1,0 +1,36 @@
+.child {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.child.jiggle {
+  animation: jiggle 1s ease infinite;
+}
+
+@keyframes jiggle {
+  0% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(-2deg);
+  }
+}
+
+.wavy-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold; 
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  background-image: linear-gradient(45deg, #ff9800, #ffeb3b);
+  -webkit-background-clip: text;
+  color: transparent;
+} 
